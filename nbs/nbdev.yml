@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_sample"
+  site-url: "https://jongseonon.github.io/nbdev_sample"
+  description: "nbdev_sample"
+  repo-branch: main
+  repo-url: "https://github.com/jongseonon/nbdev_sample"
