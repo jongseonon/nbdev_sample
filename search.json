@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "# #| export\n# def foo(): pass\n\n#| export\ndef say_hello(to):\n    \"Say hello to somebody\"\n    return f'Hello {to}!'\n\n\nsay_hello(\"Isaac\")\n\n'Hello Isaac!'",
+    "crumbs": [
+      "core"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev_sample",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "nbdev_sample"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "nbdev_sample",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall nbdev_sample in Development mode\n# make sure nbdev_sample package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to nbdev_sample\n$ nbdev_prepare",
+    "crumbs": [
+      "nbdev_sample"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "nbdev_sample",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/jongseonon/nbdev_sample.git\nor from conda\n$ conda install -c jongseonon nbdev_sample\nor from pypi\n$ pip install nbdev_sample\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "nbdev_sample"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev_sample",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "nbdev_sample"
+    ]
+  },
+  {
+    "objectID": "example.html",
+    "href": "example.html",
+    "title": "example",
+    "section": "",
+    "text": "get_data\n\n get_data (date)\n\n\n\n\nget_resource\n\n get_resource ()\n\n\n# from nbdev.export import nb_export\n\n# nb_export(\"99_example.ipynb\", lib_path=\"./\", name=\"example\")\n\n\n# !nbdev_docs\n\n\n# !streamlit run example.py\n\n\n# !jupyter nbconvert --to html \"99_example.ipynb\"",
+    "crumbs": [
+      "example"
+    ]
+  }
+]
